@@ -98,7 +98,7 @@ body {
     transform: scale(1.1);
 }
 
-/* --- Media Query dla większych ekranów (powyżej 590px) --- */
+/* Media Query dla większych ekranów (powyżej 590px) */
 
 @media (min-width: 590px) {
     .wrapper {
