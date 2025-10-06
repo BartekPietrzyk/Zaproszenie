@@ -85,13 +85,13 @@ body {
     color: inherit;
     transition: transform 0.2s ease;
     display: block;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
 }
 
 .diner {
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .data:hover, .church:hover, .rezident:hover {
