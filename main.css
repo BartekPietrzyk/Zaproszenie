@@ -80,7 +80,7 @@ body {
     margin-top: 10px;
 }
 
-.data, .church, .rezident {
+.data, .church, .rezident, .forms, .szpilka{
     text-decoration: none;
     color: inherit;
     transition: transform 0.2s ease;
@@ -94,7 +94,7 @@ body {
     margin-top: 20px;
 }
 
-.data:hover, .church:hover, .rezident:hover {
+.data:hover, .church:hover, .rezident:hover, .forms:hover, .szpilka:hover{
     transform: scale(1.1);
 }
 
@@ -108,13 +108,21 @@ body {
     .invitation-container {
         width: 80%;
     }
+
+    .data, .church, .rezident, .forms, .szpilka {
+        display: inline-block;
+        border-bottom: 1px solid #2196F3;
+        text-decoration: none;
+        padding-bottom: 2px;
+        margin-top: 20px; /* Przywracamy margines, jeśli potrzebny */
+    }
 }
 
 /* Media Query dla telefonów (maksymalna szerokość 768px) */
 @media (max-width: 768px) {
     /* ... (inne style dla telefonu) ... */
 
-    .data, .church, .rezident {
+    .data, .church, .rezident, .forms{
         display: inline-block; /* Nowa, kluczowa zmiana */
         border-bottom: 1px solid #2196F3;
         text-decoration: none;
