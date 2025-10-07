@@ -80,7 +80,7 @@ body {
     margin-top: 10px;
 }
 
-.data, .church, .rezident, .forms, .szpilka{
+.data, .church, .forms, .szpilka{
     text-decoration: none;
     color: inherit;
     transition: transform 0.2s ease;
@@ -109,7 +109,7 @@ body {
         width: 80%;
     }
 
-    .data, .church, .rezident, .forms, .szpilka {
+    .data, .church, .forms, .szpilka {
         display: inline-block;
         border-bottom: 1px solid #2196F3;
         text-decoration: none;
